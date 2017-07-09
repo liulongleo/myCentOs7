@@ -1,22 +1,20 @@
-
-
-1. 更新系统
+* 更新系统
 
 yum -y update
 
-2. 安装vim
+* 安装vim
 
 yum install vim
 
-3. 配置普通用户的sudo权限
+* 配置普通用户的sudo权限
 
-先备份/etc/sudoers 
+先备份/etc/sudoers
 
 编辑/etc/sudoers
 
 添加普通用户的sudo，可在Root 行下添加新用户的行
 
-4. 设置ssh登录
+* 设置ssh登录
 
 a. 禁止root通过ssh登录
 
@@ -44,7 +42,7 @@ d. 修改SELinux设置
 
 编辑selinux中SELINUX=permissive
 
-5. 设置笔记本合盖不休眠
+* 设置笔记本合盖不休眠
 
 备份/etc/system/logind.conf
 
