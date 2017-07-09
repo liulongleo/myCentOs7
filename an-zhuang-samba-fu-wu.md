@@ -2,7 +2,7 @@
 
 yum -y install samba samba-client samba-common
 
-   2. 
+2. 配置samba
 
 
 
