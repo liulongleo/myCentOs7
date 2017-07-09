@@ -2,4 +2,5 @@
 
 * [Introduction](README.md)
 * [装机后的第一步设置](zhuang-ji-hou-de-di-yi-bu-she-zhi.md)
+* [安装samba服务](an-zhuang-samba-fu-wu.md)
 
