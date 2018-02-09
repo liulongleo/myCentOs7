@@ -37,6 +37,10 @@ ssh-copy-id -i ~/.ssh/id_rsa.pub "user@server"
 
 ssh-copy-id -i ~/.ssh/id_rsa.pub "-p 10022 user@server"
 
+要求.ssh目录权限是755，文件authorized_keys的权限是600
+`chmod 755 ~/.ssh`
+`chmod 600 authorized_keys`
+
 c. 修改防火墙端口
 
 备份/usr/lib/firewalld/services/ssh.xml
