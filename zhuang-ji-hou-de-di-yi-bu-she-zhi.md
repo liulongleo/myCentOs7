@@ -28,9 +28,13 @@ a. 禁止root通过ssh登录 && 修改ssh端口
 
 
 b. 通过ssh-copy-id命令在client端将公钥添加到服务器中，实现免密登录
+
 默认使用ssh的22端口
+
 ssh-copy-id -i ~/.ssh/id_rsa.pub "user@server"
+
 自定义端口为
+
 ssh-copy-id -i ~/.ssh/id_rsa.pub "-p 10022 user@server"
 
 c. 修改防火墙端口
