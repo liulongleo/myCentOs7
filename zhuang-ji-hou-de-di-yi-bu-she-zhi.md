@@ -16,19 +16,15 @@ yum install vim
 
 * 设置ssh登录
 
-a. 禁止root通过ssh登录
+a. 禁止root通过ssh登录 && 修改ssh端口
 
 先备份/etc/ssh/sshd\_config
 
 编辑/etc/ssh/sshd\_config, 将PermitRootLogin 设置为no
 
-刷新生效 systemctl restart sshd.service
-
-b. 修改ssh端口
-
-已备份过/etc/ssh/sshd\_cofig
-
 编辑Port为新端口，建议为10000以上
+
+刷新生效 systemctl restart sshd.service
 
 c. 修改防火墙端口
 
